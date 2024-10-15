@@ -1,0 +1,187 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the header and navigation bar */
+.page_head {
+    display: flex;
+    background-color: #55209F;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 80px;
+}
+
+.nav-item li {
+    margin: 6px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+/* Main content section styling */
+main {
+    padding: 20px;
+}
+
+.content-section, .content-section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.feature-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feature-button:hover {
+    background-color: #45a049;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Updated Section with icons and tasks */
+.content-section-2 {
+    text-align: center;
+    padding: 40px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.content-section-2 h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.task-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.task-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.task-item img{
+    max-width: 80%;
+    width: 90%;
+}
+
+.task-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.task-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-item ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.task-item p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.tasks-done {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tasks-done p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tasks-done ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tasks-done ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #55209F;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: inherit;
+    width: 100%;
+    bottom: 0;
+}

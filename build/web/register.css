@@ -1,0 +1,112 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the header and navigation bar */
+.page_head {
+    background-color: #55209F;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+/* Main content section styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.Register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+form input[type="text"], form input[type="password"], form input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #55209F;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.message {
+    color: red;
+    font-size: 1em;
+}
+
+.form-label{
+    display: flex;
+    color: steelblue;
+    font-size: large;
+    margin-left: 10px;
+}
+/* Styling for the footer */
+footer {
+    background-color: #55209F;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}

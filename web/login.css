@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header.page_head {
+    background-color: #55209F;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+nav.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav.navbar ul li a:hover {
+    background-color: #0056b3;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+section.Login-form {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section.Login-form input[type="text"],
+section.Login-form input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section.Login-form input[type="submit"] {
+    background-color: #55209F;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.Login-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    color: red;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #55209F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+

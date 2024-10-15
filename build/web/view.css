@@ -1,0 +1,107 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header.page_head {
+    background-color: #55209F;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav-item {
+    list-style-type: none;
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+}
+
+header .nav-item li {
+    margin: 0 15px;
+}
+
+header .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+header .nav-item a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #55209F;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.button-container {
+    background-color: #55209F;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-container:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #55209F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
